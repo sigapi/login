@@ -48,7 +48,7 @@
         <plugin.maven-eclipse-plugin.downloadJavadocs>true</plugin.maven-eclipse-plugin.downloadJavadocs>
         <plugin.maven-eclipse-plugin.downloadSources>true</plugin.maven-eclipse-plugin.downloadSources>
 
-        <dependency.sigapi-conector-selenium>development-SNAPSHOT</dependency.sigapi-conector-selenium>
+        <dependency.sigapi-conector-selenium>1.0.0</dependency.sigapi-conector-selenium>
 
     </properties>
 
