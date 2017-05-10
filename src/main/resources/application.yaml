@@ -1,0 +1,33 @@
+server:
+  port: 8081
+  context-path: /login-server
+
+spring:
+  main:
+    banner-mode: "off"
+
+  cache:
+    guava:
+      spec: maximumSize=100,expireAfterWrite=30m
+
+logging:
+  path: ${sigapi.diretorio}/logs
+
+sigapi:
+  diretorio: /tmp/sigapi/login
+
+  clients:
+    -
+      id: api
+      secret: secret
+      authority: server
+      grant-types:
+        - client_credentials
+      token-validity: 18000
+    -
+      id: exemplo
+      secret: exemplo
+      authority: client
+      grant-types:
+        - authorization_code
+      token-validity: 1800
