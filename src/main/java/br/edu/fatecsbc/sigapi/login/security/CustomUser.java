@@ -1,4 +1,4 @@
-package br.edu.fatecsbc.sigapi.loginserver.security;
+package br.edu.fatecsbc.sigapi.login.security;
 
 import java.util.Collections;
 

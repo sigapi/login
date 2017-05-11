@@ -1,4 +1,4 @@
-package br.edu.fatecsbc.sigapi.loginserver;
+package br.edu.fatecsbc.sigapi.login;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

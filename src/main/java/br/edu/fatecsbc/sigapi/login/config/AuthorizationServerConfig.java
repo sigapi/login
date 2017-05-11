@@ -1,4 +1,4 @@
-package br.edu.fatecsbc.sigapi.loginserver.config;
+package br.edu.fatecsbc.sigapi.login.config;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
 
-import br.edu.fatecsbc.sigapi.loginserver.config.PropertiesConfig.Client;
-import br.edu.fatecsbc.sigapi.loginserver.security.oauth2.provider.token.CustomTokenStore;
+import br.edu.fatecsbc.sigapi.login.config.PropertiesConfig.Client;
+import br.edu.fatecsbc.sigapi.login.security.oauth2.provider.token.CustomTokenStore;
 
 @Configuration
 @EnableAuthorizationServer

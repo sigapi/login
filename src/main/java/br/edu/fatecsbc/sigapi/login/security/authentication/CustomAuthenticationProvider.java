@@ -1,4 +1,4 @@
-package br.edu.fatecsbc.sigapi.loginserver.security.authentication;
+package br.edu.fatecsbc.sigapi.login.security.authentication;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -7,8 +7,8 @@ import org.springframework.security.authentication.dao.AbstractUserDetailsAuthen
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
-import br.edu.fatecsbc.sigapi.loginserver.security.CustomUser;
-import br.edu.fatecsbc.sigapi.loginserver.service.ConectorService;
+import br.edu.fatecsbc.sigapi.login.security.CustomUser;
+import br.edu.fatecsbc.sigapi.login.service.ConectorService;
 
 @Component
 public class CustomAuthenticationProvider

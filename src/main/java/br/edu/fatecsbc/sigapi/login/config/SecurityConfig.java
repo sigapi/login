@@ -1,4 +1,4 @@
-package br.edu.fatecsbc.sigapi.loginserver.config;
+package br.edu.fatecsbc.sigapi.login.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -8,7 +8,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
-import br.edu.fatecsbc.sigapi.loginserver.security.authentication.CustomAuthenticationProvider;
+import br.edu.fatecsbc.sigapi.login.security.authentication.CustomAuthenticationProvider;
 
 @Configuration
 @EnableWebSecurity

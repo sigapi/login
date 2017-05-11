@@ -1,4 +1,4 @@
-package br.edu.fatecsbc.sigapi.loginserver.security.oauth2.provider.token;
+package br.edu.fatecsbc.sigapi.login.security.oauth2.provider.token;
 
 import javax.annotation.PostConstruct;
 

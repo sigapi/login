@@ -1,4 +1,4 @@
-package br.edu.fatecsbc.sigapi.loginserver.security.oauth2.provider.token;
+package br.edu.fatecsbc.sigapi.login.security.oauth2.provider.token;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,8 +12,8 @@ import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 import org.springframework.stereotype.Component;
 
-import br.edu.fatecsbc.sigapi.loginserver.security.CustomUser;
-import br.edu.fatecsbc.sigapi.loginserver.service.CriptographyService;
+import br.edu.fatecsbc.sigapi.login.security.CustomUser;
+import br.edu.fatecsbc.sigapi.login.service.CriptographyService;
 
 @Component
 public class CustomTokenConverter // NO_UCD (use default)

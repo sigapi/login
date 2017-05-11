@@ -1,4 +1,4 @@
-package br.edu.fatecsbc.sigapi.loginserver.config;
+package br.edu.fatecsbc.sigapi.login.config;
 
 import java.util.ArrayList;
 import java.util.HashMap;

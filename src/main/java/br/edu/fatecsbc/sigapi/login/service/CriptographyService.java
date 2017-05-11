@@ -1,4 +1,4 @@
-package br.edu.fatecsbc.sigapi.loginserver.service;
+package br.edu.fatecsbc.sigapi.login.service;
 
 import java.io.IOException;
 import java.io.StringWriter;
