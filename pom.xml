@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>io.spring.platform</vn groupId>
+        <groupId>io.spring.platform</groupId>
         <artifactId>platform-bom</artifactId>
         <version>2.0.8.RELEASE</version>
         <relativePath/>

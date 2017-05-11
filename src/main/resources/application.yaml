@@ -1,6 +1,6 @@
 server:
   port: 8081
-  context-path: /login-server
+  context-path: /login
 
 spring:
   main:
