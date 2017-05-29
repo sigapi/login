@@ -18,7 +18,7 @@ Vagrant.configure(2) do |config|
 
         google.name = "login"
         google.image = "ubuntu-1604-xenial-v20170327"
-        google.machine_type = "g1-small"
+        google.machine_type = "n1-standard-2"
         google.zone = "us-east1-b"
         google.external_ip = "35.185.50.44"
         google.can_ip_forward = true
